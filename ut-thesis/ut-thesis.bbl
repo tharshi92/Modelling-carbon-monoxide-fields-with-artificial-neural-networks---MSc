@@ -1,0 +1,85 @@
+\begin{thebibliography}{}
+
+\bibitem[Bian et~al., 2007]{bian2007}
+Bian, H., Chin, M., Kawa, S., Duncan, B., Arellano, A., and Kasibhatla, P.
+  (2007).
+\newblock Sensitivity of global co simulations to uncertainties in biomass
+  burning sources.
+\newblock {\em Journal of Geophysical Research: Atmospheres}, 112(D23).
+
+\bibitem[Duncan et~al., 2007]{duncan2007}
+Duncan, B., Logan, J., Bey, I., Megretskaia, I., Yantosca, R., Novelli, P.,
+  Jones, N.~B., and Rinsland, C. (2007).
+\newblock Global budget of co, 1988--1997: Source estimates and validation with
+  a global model.
+\newblock {\em Journal of Geophysical Research: Atmospheres}, 112(D22).
+
+\bibitem[Haan et~al., 1996]{haan1996}
+Haan, D., Martinerie, P., and Raynaud, D. (1996).
+\newblock Ice core data of atmospheric carbon monoxide over antarctica and
+  greenland during the last 200 years.
+\newblock {\em Geophysical research letters}, 23(17):2235--2238.
+
+\bibitem[Jiang et~al., 2011]{jiang2011}
+Jiang, Z., Jones, D., Kopacz, M., Liu, J., Henze, D.~K., and Heald, C. (2011).
+\newblock Quantifying the impact of model errors on top-down estimates of
+  carbon monoxide emissions using satellite observations.
+\newblock {\em Journal of Geophysical Research: Atmospheres}, 116(D15).
+
+\bibitem[Jones et~al., 2009]{jones2009}
+Jones, D., Bowman, K., Logan, J., Heald, C., Liu, J., Luo, M., Worden, J., and
+  Drummond, J. (2009).
+\newblock The zonal structure of tropical o 3 and co as observed by the
+  tropospheric emission spectrometer in november 2004--part 1: Inverse modeling
+  of co emissions.
+\newblock {\em Atmospheric Chemistry and Physics}, 9(11):3547--3562.
+
+\bibitem[Liu et~al., 2010]{liu2010}
+Liu, J., Logan, J.~A., Jones, D., Livesey, N., Megretskaia, I., Carouge, C.,
+  and Nedelec, P. (2010).
+\newblock Analysis of co in the tropical troposphere using aura satellite data
+  and the geos-chem model: insights into transport characteristics of the geos
+  meteorological products.
+\newblock {\em Atmos. Chem. Phys}, 10(24):12--207.
+
+\bibitem[Ott et~al., 2011]{ott2011}
+Ott, L., Pawson, S., and Bacmeister, J. (2011).
+\newblock An analysis of the impact of convective parameter sensitivity on
+  simulated global atmospheric co distributions.
+\newblock {\em Journal of Geophysical Research: Atmospheres}, 116(D21).
+
+\bibitem[Rumelhart et~al., 1988]{rumelhart1988l}
+Rumelhart, D.~E., Hinton, G.~E., and Williams, R.~J. (1988).
+\newblock Learning representations by back-propagating errors.
+\newblock {\em Cognitive modeling}, 5(3):1.
+
+\bibitem[Seidl and Lorenz, 1991]{seidl1991}
+Seidl, D.~R. and Lorenz, R.~D. (1991).
+\newblock A structure by which a recurrent neural network can approximate a
+  nonlinear dynamic system.
+\newblock In {\em Neural Networks, 1991., IJCNN-91-Seattle International Joint
+  Conference on}, volume~2, pages 709--714. IEEE.
+
+\bibitem[Shindell et~al., 2006]{shindell2006}
+Shindell, D., Faluvegi, G., Stevenson, D., Krol, M., Emmons, L., Lamarque,
+  J.-F., Petron, G., Dentener, F., Ellingsen, K., Schultz, M., et~al. (2006).
+\newblock Multimodel simulations of carbon monoxide: Comparison with
+  observations and projected near-future changes.
+\newblock {\em Journal of Geophysical Research: Atmospheres}, 111(D19).
+
+\bibitem[Streets et~al., 2003]{streets2003}
+Streets, D.~G., Bond, T., Carmichael, G., Fernandes, S., Fu, Q., He, D.,
+  Klimont, Z., Nelson, S., Tsai, N., Wang, M.~Q., et~al. (2003).
+\newblock An inventory of gaseous and primary aerosol emissions in asia in the
+  year 2000.
+\newblock {\em Journal of Geophysical Research: Atmospheres}, 108(D21).
+
+\bibitem[Van~der Werf et~al., 2010]{van2010}
+Van~der Werf, G.~R., Randerson, J.~T., Giglio, L., Collatz, G., Mu, M.,
+  Kasibhatla, P.~S., Morton, D.~C., DeFries, R., Jin, Y.~v., and van Leeuwen,
+  T.~T. (2010).
+\newblock Global fire emissions and the contribution of deforestation, savanna,
+  forest, agricultural, and peat fires (1997--2009).
+\newblock {\em Atmospheric Chemistry and Physics}, 10(23):11707--11735.
+
+\end{thebibliography}

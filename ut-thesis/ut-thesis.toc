@@ -1,0 +1,22 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Carbon Monoxide}{1}
+\contentsline {section}{\numberline {1.2}Sources of CO}{1}
+\contentsline {subsection}{\numberline {1.2.1}Estimation of CO Sources}{3}
+\contentsline {section}{\numberline {1.3}Objective of Manuscript}{3}
+\contentsline {chapter}{\numberline {2}Artificial Neural Networks}{5}
+\contentsline {section}{\numberline {2.1}What is a Neural Network?}{5}
+\contentsline {section}{\numberline {2.2}Architectures, Activation, and Assimilation}{6}
+\contentsline {subsection}{\numberline {2.2.1}The Universal Approximation Theorem}{7}
+\contentsline {section}{\numberline {2.3}The Learning Problem}{8}
+\contentsline {subsection}{\numberline {2.3.1}Minimizing $E(\Theta )$}{9}
+\contentsline {subsection}{\numberline {2.3.2}The Back-propagation Algorithm}{10}
+\contentsline {section}{\numberline {2.4}ANNs in Practice}{11}
+\contentsline {subsection}{\numberline {2.4.1}Example: Nonlinear Fitting}{11}
+\contentsline {subsection}{\numberline {2.4.2}Example: The Lorentz Model}{11}
+\contentsline {chapter}{\numberline {3}Modeling CO Fields with Neural Networks}{17}
+\contentsline {section}{\numberline {3.1}Input Data}{17}
+\contentsline {section}{\numberline {3.2}Network Setup}{17}
+\contentsline {section}{\numberline {3.3}Results}{17}
+\contentsline {section}{\numberline {3.4}Conclusions and Future Work}{19}
+\contentsline {chapter}{Bibliography}{24}
+\contentsfinish 

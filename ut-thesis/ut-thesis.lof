@@ -1,0 +1,19 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Differences between the chemical transport multi-model mean CO and MOPITT V3 CO for 2000-2004 (ppbv) at 500 hPa. The background CO field is 200 ppbv. Plot from \cite {shindell2006}.}}{2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A single neuron NAND gate with two identical weights, $w_1 = w_2 = -2$ and a bias $b = 3$}}{6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Three common activation functions used in neural networks.}}{7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Plots of the cost function during the training of the FFNN. Note the minimal over-fitting illustrated by the testing cost curve.}}{12}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The neural network fit of equation 2.8\hbox {}.}}{13}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The strange attractor solution to the Lorentz system.}}{13}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The individual components for the strange attractor solution. There is a unique multi-modal structure in which the solution persists between the two modes.}}{14}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The cost function history for training the Lorentz network. The minimal over-error near the end is relatively negligible.}}{15}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces The residuals between the trained network and the true dynamical state of the Lorentz system. The network has a good fit until the mode changes, where it loses track of the solution and errors start to accumulate quickly.}}{16}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The cost function history for training a FFNN on the GEOS-Chem CTM data.}}{18}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A plot of residual data between the GEOS model and multiple neural network fits. Larger architectures do not necessarily provide proportionate improvements to the model.}}{19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A histogram of residuals data between the GEOS model and multiple neural network fits.}}{20}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Residuals between the GEOS-Chem CTM data and network outputs. A large smoothing window shows that all three networks capture seasonal changes without major discrepancies.}}{21}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Residuals between the GEOS-Chem CTM data and network outputs. A short smoothing window allows daily variability to leak into the data and illuminate the problem of over-fitting.}}{22}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The raw fit of the testing data. Note the errors during the summer season.}}{23}
+\contentsfinish 
