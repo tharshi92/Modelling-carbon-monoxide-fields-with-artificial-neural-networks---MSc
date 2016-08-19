@@ -40,7 +40,6 @@ program is not optimized for GPU usage. Classification is currently in progress.
 import numpy as np
 import scipy.optimize as spo
 import matplotlib.pyplot as plt
-from init_plotting import init_plotting
 
 class Network(object):
     
@@ -191,9 +190,7 @@ class Network(object):
         ps = self.get_params()
         J_0 = 0.5*np.linalg.norm(diff)**2/self.N
         J_r = 0.5*self.reg*np.linalg.norm(ps[:self.num_weights])**2/self.num_weights
-        ratio = J_0/J_r
-        print(ratio)
-        return (J_0 + J_r)
+        return J_0 + J_r
     
     def cost_prime(self, x, y):
         """return the lists of derivatives dNet/dW and dNet/dB."""
@@ -358,11 +355,8 @@ class Trainer(object):
 if __name__ == '__main__':
     
     import matplotlib.pyplot as plt
-    import palettable
-    init_plotting()
     width  = 7.784
     height = width / 1.618
-    plt.rcParams['text.usetex'] = True
     
     print('##############################################################')
     print('Welcome to N.A.M.I.')
@@ -406,8 +400,6 @@ if __name__ == '__main__':
     
         
     if problem:
-        init_plotting()
-        cmap = palettable.colorbrewer.qualitative.Set2_8.mpl_colors
         
         x = np.random.uniform(low=-1, high=1, size=(int(N), 1))
         x_test = np.random.uniform(low=-1, high=1, size=(int(M), 1))
@@ -446,14 +438,12 @@ if __name__ == '__main__':
 
         title = 'Neural Network Fit with MSE = {:.3e} and Residual $\sigma$ = {:.3e}'.format(mse[0], std[0])
         
-        
-        init_plotting()
+        f_reg = plt.figure()
         ax = plt.subplot(111)
-        f_reg = plt.gcf()
         ax.set_title(title)
         ax.set_xlabel('x')
         ax.set_ylabel('g(x)')
-        ax.scatter(x_test, y_test, s=50, marker='o', edgecolors=cmap[0],
+        ax.scatter(x_test, y_test, s=50, marker='s', edgecolors='r',
                     facecolors='none', label='Testing Data')
         ax.plot(t, nn, color='k', label='Neural Net Estimate', linewidth = 1)
         plt.legend()
@@ -536,11 +526,9 @@ if __name__ == '__main__':
         f_cl.set_size_inches(width/1.5, width/1.5)
         f_cl.savefig(savename, bbox_inches='tight')
 
-#%%   
-    plt.clf()
-    init_plotting()
+#%%  
+    f_cost = plt.figure()
     ax = plt.subplot(111)
-    f_cost = plt.gcf()
     title = 'Training History, Layers = {}, Reg={:.4e}, Method = {}'.format(layers, reg, method)
     ax.set_title(title)
     plt.xlabel('Iteration')
